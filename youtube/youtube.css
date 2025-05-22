@@ -78,6 +78,14 @@ p{
     display: grid;
     grid-template-columns: 1fr;
   }
+  .right-section{
+    column-gap:5%;
+    padding-right:5%;
+  }
+  .left-section{
+    margin-left:0;
+    column-gap:5%;
+  }
 }
 
 @media(min-width:721px) and (max-width:999px){
@@ -159,9 +167,9 @@ p{
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 10px;
+  padding-right: 20px;
   padding-left: 10%;
-  column-gap: 5%;
+  column-gap: 20%;
 }
 
 .hamburger-menu{
