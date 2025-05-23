@@ -78,14 +78,6 @@ p{
     display: grid;
     grid-template-columns: 1fr;
   }
-  .right-section{
-    column-gap:0.5%;
-    padding-right:0;
-  }
-  .left-section{
-    margin-left:0;
-    column-gap:0.5%;
-  }
 }
 
 @media(min-width:721px) and (max-width:999px){
