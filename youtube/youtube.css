@@ -258,7 +258,7 @@ p{
     }
   
     .right-section{
-      column-gap: 6%;
+      column-gap: 8%;
       padding-left: 0;
     }
 
@@ -276,7 +276,7 @@ p{
   .youtube-logo{
     width: 100px;
     margin-left: 0;
-    width: 60px;
+    width: 65px;
   }
   }
 
