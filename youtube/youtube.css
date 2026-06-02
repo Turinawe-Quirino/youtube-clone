@@ -120,7 +120,7 @@ p{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 0.5rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -130,7 +130,6 @@ p{
   border-bottom-width:1px ;
   border-bottom-style:solid;
   border-bottom-color: rgb(228 228 228);
-  padding-left: 10px;
 }
 
   .left-section{
@@ -170,6 +169,7 @@ p{
 
 .youtube-logo{
   height: 20px;
+  width: auto;
 }
 
 .search-button{
@@ -232,7 +232,7 @@ p{
 
 .search-bar{
   flex: 1;
-  height: 34px;
+  height: 39px;
   padding-left: 10px;
   font-size: 16px;
   border-width: 1px;
@@ -248,8 +248,37 @@ p{
 
 .search-bar::placeholder{
   font-family: Roboto, Arial;
-  font-size: 16px ;
+  font-size:1rem ;
 }
+
+@media(max-width:900px){
+    .search-bar,
+    .voice-search-button{
+      display: none;
+    }
+  
+    .right-section{
+      column-gap: 6%;
+      padding-left: 0;
+    }
+
+    .left-section{
+      margin-right: 5%;
+    }
+
+    .search-button{
+      height: 28px;
+      width: 1pxpx;
+      background-color: rgb(128, 118, 118);
+      padding: 2px;
+    }
+
+  .youtube-logo{
+    width: 100px;
+    margin-left: 0;
+    width: 60px;
+  }
+  }
 
 .voice-search-button{
   height: 40px;
@@ -281,7 +310,6 @@ height: 25px;
 
 .notifications-icon-container{
   position: relative;
-
 }
 
 .notifications-count{
@@ -339,4 +367,5 @@ height: 25px;
     font-family: Roboto, Arial;
     font-size: 10px;
   }
+  
   
